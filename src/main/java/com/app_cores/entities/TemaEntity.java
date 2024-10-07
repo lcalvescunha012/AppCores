@@ -1,4 +1,4 @@
-package com.AppCores.entities;
+package com.app_cores.entities;
 
 
 import jakarta.persistence.*;
@@ -31,6 +31,5 @@ public class TemaEntity {
     @Column(nullable = false)
     private String fontePrimaria;
 
-    @Column(nullable = false)
-    private String logoUrl;
+
 }

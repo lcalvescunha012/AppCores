@@ -1,4 +1,4 @@
-package com.AppCores.entities;
+package com.app_cores.entities;
 
 
 import jakarta.persistence.*;
@@ -24,6 +24,9 @@ public class ClienteEntity {
 
     @Column(nullable = false)
     private String telefone;
+
+    @Column(nullable = false)
+    private String logoUrl;
 
     @Column(nullable = false)
     private Long temaId;

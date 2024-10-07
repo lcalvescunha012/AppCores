@@ -1,4 +1,4 @@
-package com.AppCores.controller;
+package com.app_cores.controller;
 
 public class ClienteController {
 }
